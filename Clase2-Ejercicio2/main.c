@@ -11,7 +11,7 @@ int main()
 {
     int precio;
 
-    printf("Ingrese el valor del precio: ");
+    printf("Ingrese el valor del precio: \n");
     scanf("%d",&precio);
 
     if ((precio > 1000) || (precio < 5000))
@@ -26,7 +26,7 @@ int main()
         }
     }
 
-    printf("El precio a abonar es: %d", precio);
+    printf("El precio a abonar es: %d\n", precio);
 
     return 0;
 }
