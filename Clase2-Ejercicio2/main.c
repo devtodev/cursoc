@@ -14,7 +14,7 @@ int main()
     printf("Ingrese el valor del precio: \n");
     scanf("%d",&precio);
 
-    if ((precio > 1000) || (precio < 5000))
+    if ((precio > 1000) && (precio < 5000))
     {
         precio = precio * 0.90;
     }
