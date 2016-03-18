@@ -14,6 +14,7 @@ int main()
 	int valorA, valorB;
 
    printf("Ingrese un valor a sumar\n");
+   fflush(stdout);
    scanf("%d", &valorA);
 
    printf("Ingrese otro valor a sumar\n");
